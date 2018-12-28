@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		934E9CCC21D61692009FB17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9CCB21D61692009FB17C /* AppDelegate.swift */; };
-		934E9CCE21D61692009FB17C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 934E9CCD21D61692009FB17C /* GameScene.sks */; };
 		934E9CD021D61692009FB17C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 934E9CCF21D61692009FB17C /* Actions.sks */; };
 		934E9CD221D61692009FB17C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9CD121D61692009FB17C /* GameScene.swift */; };
 		934E9CD421D61692009FB17C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9CD321D61692009FB17C /* GameViewController.swift */; };
 		934E9CD721D61692009FB17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934E9CD521D61692009FB17C /* Main.storyboard */; };
 		934E9CD921D61693009FB17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934E9CD821D61693009FB17C /* Assets.xcassets */; };
 		934E9CDC21D61693009FB17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934E9CDA21D61693009FB17C /* LaunchScreen.storyboard */; };
+		934E9CE421D65BE1009FB17C /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9CE321D65BE1009FB17C /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		934E9CC821D61692009FB17C /* TetrisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934E9CCB21D61692009FB17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		934E9CCD21D61692009FB17C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		934E9CCF21D61692009FB17C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		934E9CD121D61692009FB17C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		934E9CD321D61692009FB17C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		934E9CD821D61693009FB17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		934E9CDB21D61693009FB17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		934E9CDD21D61693009FB17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E9CE321D65BE1009FB17C /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				934E9CCB21D61692009FB17C /* AppDelegate.swift */,
-				934E9CCD21D61692009FB17C /* GameScene.sks */,
 				934E9CCF21D61692009FB17C /* Actions.sks */,
 				934E9CD121D61692009FB17C /* GameScene.swift */,
 				934E9CD321D61692009FB17C /* GameViewController.swift */,
@@ -69,6 +68,7 @@
 				934E9CD821D61693009FB17C /* Assets.xcassets */,
 				934E9CDA21D61693009FB17C /* LaunchScreen.storyboard */,
 				934E9CDD21D61693009FB17C /* Info.plist */,
+				934E9CE321D65BE1009FB17C /* Array2D.swift */,
 			);
 			path = TetrisApp;
 			sourceTree = "<group>";
@@ -132,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				934E9CD721D61692009FB17C /* Main.storyboard in Resources */,
-				934E9CCE21D61692009FB17C /* GameScene.sks in Resources */,
 				934E9CD921D61693009FB17C /* Assets.xcassets in Resources */,
 				934E9CDC21D61693009FB17C /* LaunchScreen.storyboard in Resources */,
 				934E9CD021D61692009FB17C /* Actions.sks in Resources */,
@@ -147,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934E9CD221D61692009FB17C /* GameScene.swift in Sources */,
+				934E9CE421D65BE1009FB17C /* Array2D.swift in Sources */,
 				934E9CD421D61692009FB17C /* GameViewController.swift in Sources */,
 				934E9CCC21D61692009FB17C /* AppDelegate.swift in Sources */,
 			);
